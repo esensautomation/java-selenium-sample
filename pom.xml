@@ -86,7 +86,7 @@
               <suiteXmlFile>src/test/resources/suites/tnr.xml</suiteXmlFile>
             </suiteXmlFiles>
             <parallel>methods</parallel>
-            <threadCount>5</threadCount>
+            <threadCount>2</threadCount>
           </configuration>
         </plugin>
       </plugins>
