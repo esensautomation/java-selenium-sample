@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [TNR Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="Login(failed)" verbose="0">
+    <classes>
+      <class name="com.apothuaud.selenium.cura.LoginSuccessTest">
+        <methods>
+          <include name="chromeTest"/>
+        </methods>
+      </class> <!-- com.apothuaud.selenium.cura.LoginSuccessTest -->
+      <class name="com.apothuaud.selenium.cura.LoginFailureTest">
+        <methods>
+          <include name="chromeTest"/>
+        </methods>
+      </class> <!-- com.apothuaud.selenium.cura.LoginFailureTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" parallel="classes" name="Appointment(failed)" verbose="0">
+    <classes>
+      <class name="com.apothuaud.selenium.cura.LoginSuccessTest">
+        <methods>
+          <include name="chromeTest"/>
+        </methods>
+      </class> <!-- com.apothuaud.selenium.cura.LoginSuccessTest -->
+    </classes>
+  </test> <!-- Appointment(failed) -->
+</suite> <!-- Failed suite [TNR Suite] -->
