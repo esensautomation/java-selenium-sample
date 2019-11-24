@@ -1,19 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "TNR Suite">
+<suite name = "CURA TNR Suite">
 
-    <test name = "Login">
+    <test name = "Login Form">
         <classes>
-            <class name = "com.apothuaud.selenium.cura.LoginSuccessTest" />
-            <class name = "com.apothuaud.selenium.cura.LoginFailureTest" />
+            <class name = "com.apothuaud.selenium.cura.LoginFormTest" />
         </classes>
     </test>
 
-    <test name = "Appointment">
+    <test name = "Appointment Form">
         <classes>
-            <class name = "com.apothuaud.selenium.cura.LoginSuccessTest" />
-            <class name = "com.apothuaud.selenium.cura.LoginFailureTest" />
+            <class name = "com.apothuaud.selenium.cura.AppointmentFormTest" />
         </classes>
     </test>
 
